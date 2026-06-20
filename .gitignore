@@ -1,11 +1,30 @@
-faiss_store_samachar/
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+
+# Virtual environments
 venv/
 env/
 .venv/
+ENV/
+
+# Environment variables
+.env
+
+# FAISS vector stores (IMPORTANT for your project)
+faiss_store_*
+*.pkl
+faiss_index/
+
+# VS Code
 .vscode/
+
+# OS generated files
 .DS_Store
 Thumbs.db
-.env
+
+# Logs
+*.log
+logs/
